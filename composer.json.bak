@@ -3,7 +3,9 @@
     "description": "shopee包",
     "type": "library",
     "require": {
-        "php": ">=7.2"
+        "php": ">=7.2",
+ 	"netresearch/jsonmapper": "*",
+        "ext-curl": "*"
     },
     "license": "Apache",
     "autoload": {
@@ -17,8 +19,5 @@
             "email": "657627249@qq.com"
         }
     ],
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {"Shopee\\": "src/"}
-    }
+    "minimum-stability": "dev"
 }
