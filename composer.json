@@ -1,0 +1,22 @@
+{
+    "name": "jay/shopsee",
+    "description": "shop-sdk",
+    "type": "library",
+    "require": {
+        "ext-json": "*",
+		"php": ">=7.2",
+		"netresearch/jsonmapper": "*",
+		"ext-curl": "*"
+    },
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "jay",
+            "email": "657627249@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {"Shopee\\": "src/"}
+	}
+}
